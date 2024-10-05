@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin: 47px 0 177px 42px;
+}
+
+.link-header {
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.875px;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.img-main {
+    width: 583.17px;
+    margin-left: 121px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    width: 582px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin: 47px 0 55px;
+}
+
+.link-section {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media(max-width: 710px) {
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    header {
+        display: flex;
+        justify-content: end;   
+        margin: 10px 10px 50px;
+    }
+
+    .img-main {
+        width: 312px;
+        height: 288px;
+        margin: auto;
+        position: absolute;
+        top: 55%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        width: 278px;
+        text-align: center;
+    }
+
+    section p {
+        width: 304px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+}
